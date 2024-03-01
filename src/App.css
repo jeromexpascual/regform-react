@@ -1,4 +1,4 @@
-
+/* 
 .page::before {
   content: "";
   position: fixed;
@@ -24,4 +24,22 @@
       -ms-transform: translateX(-30%) skew(10deg, 0);
       -o-transform: translateX(-30%) skew(10deg, 0);
 }
+} */
+
+.content-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.page-title {
+  color: #007bff;
+}
+
+.page-text {
+  color: #555;
+}
+
+.btn-primary {
+  margin-top: 20px;
 }
